@@ -1,0 +1,13 @@
+.cardsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+@media (max-width: 567px) {
+    .cardsList {
+        gap: 15px;
+        justify-content: center;
+    }
+}

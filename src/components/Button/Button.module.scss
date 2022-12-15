@@ -1,0 +1,24 @@
+.greenButton {
+    width: 100%;
+    max-width: 400px;
+    background: #9dd558;
+    border-radius: 18px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+    padding: 20px 30px;
+
+    &:hover {
+        background: lighten($color: #9dd558, $amount: 5%);
+    }
+
+    &:active {
+        background: darken($color: #9dd558, $amount: 5%);
+    }
+}
